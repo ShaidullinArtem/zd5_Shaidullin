@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd5_Shaidullin.Login">
+    
+    <ContentPage.Resources>
+        <StyleSheet Source="./style.css" />
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <StackLayout StyleClass="wrapper" Padding="24">
+            <Label Text="Welcome" HorizontalOptions="Center" FontSize="26" Margin="24"></Label>
+            <Entry x:Name="login_field" Placeholder="Username" StyleClass="data_field"></Entry>
+            <Entry x:Name="password_field" Placeholder="Password" IsPassword="True" StyleClass="data_field"></Entry>
+
+            <Button Text="Sign In" StyleClass="submit_btn" Clicked="signin_Clicked" Margin="0,12,0,24"></Button>
+
+            <FlexLayout JustifyContent="SpaceBetween" AlignItems="Center">
+                 <CheckBox></CheckBox>
+                <Label Text="Remember me" StyleClass="rememberme"></Label>
+                <Button Text="Forgot password" StyleClass="forgot_password_btn" FontSize="12"></Button>
+            </FlexLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+            
+            
+    
+</ContentPage>

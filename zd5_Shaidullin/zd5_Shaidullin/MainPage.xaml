@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zd5_Shaidullin.MainPage">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="./main.style.css" />
+    </ContentPage.Resources>
+
+    <StackLayout Padding="24">
+        <FlexLayout JustifyContent="SpaceBetween" AlignContent="Center">
+            <StackLayout>
+                <Button Text="Static"></Button>
+                <Button Text="Static"></Button>
+                <Button Text="Static"></Button>
+            </StackLayout>
+            <StackLayout>
+                <Switch IsToggled="True"></Switch>
+            </StackLayout>
+            <StackLayout>
+                <Switch IsToggled="False"></Switch>
+            </StackLayout>
+        </FlexLayout>
+    </StackLayout>
+
+</ContentPage>

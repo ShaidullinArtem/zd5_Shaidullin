@@ -1,0 +1,27 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #2c2f34;
+    color: white;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.data_field {
+    background: white;
+    color: #2c2f34;
+}
+
+.submit_btn {
+    background: #f04031;
+    color: white;
+}
+
