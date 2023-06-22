@@ -6,3 +6,116 @@
     color: white;
     font-weight: bold;
 }
+
+.labelToRemember {
+    font-size: small;
+}
+
+.helloLabel {
+    font-size: large;
+}
+
+.white {
+    color: black;
+    background-color: aliceblue;
+    font-style: bold;
+    font-family: Arial;
+}
+
+.checkBox {
+    color: white;
+}
+
+.BoldLineLabel {
+    font-style: bold;
+    text-decoration: underline;
+}
+
+#slider1 {
+    -xf-max-track-color: #d7d7d7;
+    -xf-min-track-color: #48c1ff;
+    -xf-thumb-color: #00000000;
+}
+
+#slider2 {
+    -xf-max-track-color: #d7d7d7;
+    -xf-min-track-color: #48c1ff;
+    -xf-thumb-color: #48c1ff;
+}
+
+#slider4 {
+    -xf-max-track-color: #48c1ff;
+    -xf-min-track-color: #d7d7d7;
+    -xf-thumb-color: #48c1ff;
+}
+
+#button2 {
+    color: white;
+    background: #4aa0d1;
+    font-size: 18;
+    font-family: Consolas;
+    font-style: bold;
+    border-radius: 50;
+}
+
+
+#button3 {
+    color: #919191;
+    font-family: Consolas;
+    font-size: 18;
+    font-style: bold;
+    background: #efefef;
+    border-radius: 50;
+}
+
+
+
+#button4 {
+    color: #e0e0e0;
+    font-family: Consolas;
+    font-size: 18;
+    font-style: bold;
+    background: white;
+    border-radius: 50;
+    border: 1px solid #e0e0e0;
+}
+
+
+switch {
+    color: #48c1ff;
+    -xf-thumb-color: white;
+}
+
+#labelToSwitchOn_1 {
+    color: white;
+    font-size: 8;
+    line-height: 1.0;
+    max-width: 1;
+    margin-right: 12;
+    margin-top: 2;
+}
+
+#labelToSwitchOff_1 {
+    color: #909090;
+    font-size: 6.5;
+    line-height: 1.0;
+    max-width: 1;
+    margin-right: -11;
+    margin-top: 2;
+}
+
+#labelToSwitchOn_2 {
+    color: white;
+    font-size: 9;
+    line-height: 1.0;
+    margin-right: 12;
+    margin-top: 0;
+}
+
+#labelToSwitchOff_2 {
+    color: #909090;
+    font-size: 10;
+    line-height: 1.0;
+    margin-right: -10;
+    margin-top: 0;
+}

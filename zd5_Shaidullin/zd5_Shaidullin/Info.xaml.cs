@@ -12,9 +12,12 @@ namespace zd5_Shaidullin
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Info : ContentPage
     {
-        public Info()
+        public Info(string login, string password)
         {
             InitializeComponent();
+
+            usernameLabel.Text = login;
+            passwordLabel.Text = password;
         }
     }
 }

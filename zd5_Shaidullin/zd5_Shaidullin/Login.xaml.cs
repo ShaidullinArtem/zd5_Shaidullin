@@ -19,7 +19,7 @@ namespace zd5_Shaidullin
             InitializeComponent();
         }
 
-        private async void signin_Clicked(object sender, EventArgs e)
+        private void signin_Clicked(object sender, EventArgs e)
         {
 
             if (string.IsNullOrEmpty(login_field.Text) || string.IsNullOrEmpty(password_field.Text))
@@ -28,14 +28,8 @@ namespace zd5_Shaidullin
                 return;
             }
 
-            await SaveApplicationProperty("user", login_field.Text);
-            Navigation.PushAsync(new MainPage());
+            Navigation.PushAsync(new MainPage(login_field.Text, password_field.Text));
         }
 
-        private async Task SaveApplicationProperty<T>(string key, T value)
-        {
-            Xamarin.Forms.Application.Current.Properties[key] = value;
-            await Xamarin.Forms.Application.Current.SavePropertiesAsync();
-        }
     }
 }
